@@ -5,13 +5,14 @@
 }
 *{
    font-family: corsiva;
-    background-color: black
+    background-color: black;
+     color: white;
 }
 
 .header{
     text-align: center;
     font-size: 100px;
-    color: white;
+    
 
 }
 
@@ -24,18 +25,30 @@
    height: 750px;
 
 }
-
-.h1{
-    font-size: medium;
-    color: white;
+#h1{
     text-align: center;
-
+    font-size: 50px;
+}
+#h2{
+    text-align: center;
+    font-size: 50px;
+}
+.item-list{
+   
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    height: 500px;
+    width: 500px;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
 }
 
-.abtUs{
-    color: white;
-    font-size: medium;
-    text-align: center;
-
-
+.item{
+	
+    scroll-snap-align: center;
 }
+
+
