@@ -1,0 +1,36 @@
+*{
+    
+    background-color: black
+}
+
+.header{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+
+}
+
+
+.homeVid{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 750px;
+   height: 750px;
+
+}
+
+.h1{
+    font-size: medium;
+    color: white;
+    text-align: center;
+
+}
+
+.abtUs{
+    color: white;
+    font-size: medium;
+    text-align: center;
+
+
+}
