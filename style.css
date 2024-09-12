@@ -33,7 +33,7 @@
     text-align: center;
     font-size: 50px;
 }
-.item-list{
+.image-list{
    
     display: flex;
     margin-left: auto;
@@ -46,7 +46,7 @@
     scroll-snap-type: x mandatory;
 }
 
-.item{
+.image{
 	
     scroll-snap-align: center;
 }
