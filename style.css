@@ -23,32 +23,36 @@
    margin-right: auto;
    width: 750px;
    height: 750px;
+   
 
 }
 #h1{
     text-align: center;
     font-size: 50px;
+    color: white;
+    background-color: black;
 }
 #h2{
     text-align: center;
     font-size: 50px;
+    color: white;
 }
-.image-list{
-   
-    display: flex;
-    margin-left: auto;
+
+#carousel{
+    height: 750px;
+    width: 750px;
     margin-right: auto;
-    max-width: fit-content;
-    height: 500px;
-    width: 500px;
-    scroll-behavior: smooth;
-    overflow: auto;
-    scroll-snap-type: x mandatory;
+    margin-left: auto;
+    
 }
 
-.image{
-	
-    scroll-snap-align: center;
+.carousel-item {
+    
+
+    height: 750px;
+    width: auto;
 }
 
-
+.carousel-control-prev{
+color: gray;
+}
