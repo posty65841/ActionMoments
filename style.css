@@ -37,6 +37,9 @@
     font-size: 50px;
     color: white;
 }
+.cContainer{
+    display: block;
+}
 
 #carousel{
     height: 750px;
@@ -53,6 +56,3 @@
     width: auto;
 }
 
-.carousel-control-prev{
-color: gray;
-}
