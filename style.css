@@ -24,8 +24,8 @@
    display: block;
    margin-left: auto;
    margin-right: auto;
-   width: auto;
-   height: auto;
+   width: 800px;
+   height: 800px;
    
 
 }
@@ -45,6 +45,7 @@
 }
 .cContainer{
     display: block;
+   
 }
 
 #carousel{
@@ -61,15 +62,19 @@
     height: 750px;
     width: auto;
 }
+.pLinkHere{
+    text-align: center;
+}
 
-.footer{
-    background-color: darkblue; 
+#footer{
+    background-color: black;
     color: white; 
     padding: 20px; 
     text-align: center; 
     font-size: 50px; 
     font-family: corsiva;
 }
+
 
 
 
